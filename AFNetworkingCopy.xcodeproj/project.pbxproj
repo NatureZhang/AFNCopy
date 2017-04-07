@@ -13,6 +13,11 @@
 		D9468C411E8F882A0026458B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9468C3F1E8F882A0026458B /* Main.storyboard */; };
 		D9468C431E8F882A0026458B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9468C421E8F882A0026458B /* Assets.xcassets */; };
 		D9468C461E8F882A0026458B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9468C441E8F882A0026458B /* LaunchScreen.storyboard */; };
+		D9468C511E8F89200026458B /* ZDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9468C501E8F89200026458B /* ZDNetworkManager.m */; };
+		D9A6BDD81E97A45C00D51CEB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BDD71E97A45C00D51CEB /* AFURLSessionManager.m */; };
+		D9A6BDDE1E97ABA600D51CEB /* AFHTTPRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BDDD1E97ABA600D51CEB /* AFHTTPRequestSerializer.m */; };
+		D9A6BDE11E97ABBF00D51CEB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BDE01E97ABBF00D51CEB /* AFURLResponseSerialization.m */; };
+		D9A6BDE41E97ABE200D51CEB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BDE31E97ABE200D51CEB /* AFHTTPSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		D9468C421E8F882A0026458B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9468C451E8F882A0026458B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9468C471E8F882A0026458B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9468C4F1E8F89200026458B /* ZDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDNetworkManager.h; sourceTree = "<group>"; };
+		D9468C501E8F89200026458B /* ZDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDNetworkManager.m; sourceTree = "<group>"; };
+		D9A6BDD61E97A45C00D51CEB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		D9A6BDD71E97A45C00D51CEB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D9A6BDDC1E97ABA600D51CEB /* AFHTTPRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestSerializer.h; sourceTree = "<group>"; };
+		D9A6BDDD1E97ABA600D51CEB /* AFHTTPRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestSerializer.m; sourceTree = "<group>"; };
+		D9A6BDDF1E97ABBF00D51CEB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D9A6BDE01E97ABBF00D51CEB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		D9A6BDE21E97ABE200D51CEB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D9A6BDE31E97ABE200D51CEB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,8 @@
 				D9468C3A1E8F882A0026458B /* AppDelegate.m */,
 				D9468C3C1E8F882A0026458B /* ViewController.h */,
 				D9468C3D1E8F882A0026458B /* ViewController.m */,
+				D9A6BDD51E97A42600D51CEB /* AFNetworkingCopy */,
+				D9468C4E1E8F88790026458B /* LNSURLSession */,
 				D9468C3F1E8F882A0026458B /* Main.storyboard */,
 				D9468C421E8F882A0026458B /* Assets.xcassets */,
 				D9468C441E8F882A0026458B /* LaunchScreen.storyboard */,
@@ -77,6 +94,30 @@
 				D9468C371E8F882A0026458B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9468C4E1E8F88790026458B /* LNSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D9468C4F1E8F89200026458B /* ZDNetworkManager.h */,
+				D9468C501E8F89200026458B /* ZDNetworkManager.m */,
+			);
+			path = LNSURLSession;
+			sourceTree = "<group>";
+		};
+		D9A6BDD51E97A42600D51CEB /* AFNetworkingCopy */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6BDD61E97A45C00D51CEB /* AFURLSessionManager.h */,
+				D9A6BDD71E97A45C00D51CEB /* AFURLSessionManager.m */,
+				D9A6BDE21E97ABE200D51CEB /* AFHTTPSessionManager.h */,
+				D9A6BDE31E97ABE200D51CEB /* AFHTTPSessionManager.m */,
+				D9A6BDDC1E97ABA600D51CEB /* AFHTTPRequestSerializer.h */,
+				D9A6BDDD1E97ABA600D51CEB /* AFHTTPRequestSerializer.m */,
+				D9A6BDDF1E97ABBF00D51CEB /* AFURLResponseSerialization.h */,
+				D9A6BDE01E97ABBF00D51CEB /* AFURLResponseSerialization.m */,
+			);
+			path = AFNetworkingCopy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A6BDD81E97A45C00D51CEB /* AFURLSessionManager.m in Sources */,
+				D9468C511E8F89200026458B /* ZDNetworkManager.m in Sources */,
+				D9A6BDDE1E97ABA600D51CEB /* AFHTTPRequestSerializer.m in Sources */,
 				D9468C3E1E8F882A0026458B /* ViewController.m in Sources */,
 				D9468C3B1E8F882A0026458B /* AppDelegate.m in Sources */,
+				D9A6BDE11E97ABBF00D51CEB /* AFURLResponseSerialization.m in Sources */,
 				D9468C381E8F882A0026458B /* main.m in Sources */,
+				D9A6BDE41E97ABE200D51CEB /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +353,7 @@
 				D9468C4C1E8F882A0026458B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

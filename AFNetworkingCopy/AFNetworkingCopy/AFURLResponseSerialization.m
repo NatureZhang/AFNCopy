@@ -1,0 +1,13 @@
+//
+//  AFURLResponseSerialization.m
+//  AFNetworkingCopy
+//
+//  Created by zhangdong on 2017/4/7.
+//  Copyright © 2017年 __Nature__. All rights reserved.
+//
+
+#import "AFURLResponseSerialization.h"
+
+@implementation AFURLResponseSerialization
+
+@end
