@@ -8,6 +8,3 @@
 
 #import "AFURLResponseSerialization.h"
 
-@implementation AFURLResponseSerialization
-
-@end
